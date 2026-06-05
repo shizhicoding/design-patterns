@@ -18,17 +18,17 @@
 | [建造者 (Builder)](src/main/java/com/shizhi/mode/design/pattern/creational/builder/README.md) | `BeanDefinitionBuilder` |
 | [原型 (Prototype)](src/main/java/com/shizhi/mode/design/pattern/creational/prototype/README.md) | `@Scope("prototype")` |
 
-### 结构型模式（待开发）
+### 结构型模式
 
 | 模式 | Spring 中的应用 |
 |------|----------------|
-| 适配器 (Adapter) | `HandlerAdapter` |
-| 桥接 (Bridge) | `DataSource` 体系 |
-| 组合 (Composite) | `CompositeFilter` |
-| 装饰器 (Decorator) | `ServerHttpRequestDecorator` |
-| 外观 (Facade) | `JdbcTemplate` / `RestTemplate` |
-| 享元 (Flyweight) | 单例 Bean 共享、方法缓存 |
-| 代理 (Proxy) | AOP（JDK 动态代理 / CGLIB） |
+| [适配器 (Adapter)](src/main/java/com/shizhi/mode/design/pattern/structural/adapter/README.md) | `HandlerAdapter` |
+| [桥接 (Bridge)](src/main/java/com/shizhi/mode/design/pattern/structural/bridge/README.md) | `DataSource` 体系 |
+| [组合 (Composite)](src/main/java/com/shizhi/mode/design/pattern/structural/composite/README.md) | `CompositeFilter` |
+| [装饰器 (Decorator)](src/main/java/com/shizhi/mode/design/pattern/structural/decorator/README.md) | `ServerHttpRequestDecorator` |
+| [外观 (Facade)](src/main/java/com/shizhi/mode/design/pattern/structural/facade/README.md) | `JdbcTemplate` / `RestTemplate` |
+| [享元 (Flyweight)](src/main/java/com/shizhi/mode/design/pattern/structural/flyweight/README.md) | 单例 Bean 共享、方法缓存 |
+| [代理 (Proxy)](src/main/java/com/shizhi/mode/design/pattern/structural/proxy/README.md) | AOP（JDK 动态代理 / CGLIB） |
 
 ### 行为型模式（待开发）
 
